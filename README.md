@@ -1,5 +1,6 @@
 # Coronavirus COVID-19 Global Cases
 
+![](https://cdn.glitch.com/b6f862ef-5ae2-4f66-8bed-dd07aa9188ea%2FScreen%20Shot%202020-03-14%20at%208.48.26%20PM.png?v=1584244124425)
 A starter that has a data (hopefully reliable) and news/tweets and other stuff to keep you posted.
 
 ### TODO
