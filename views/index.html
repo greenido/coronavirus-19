@@ -6,7 +6,10 @@
       name="description"
       content="Coronavirus COVID-19 Global Cases by Johns Hopkins"
     />
-       <meta name="author" content="Ido Green | greenido.wordpress.com | @greenido">
+    <meta
+      name="author"
+      content="Ido Green | greenido.wordpress.com | @greenido"
+    />
     <link
       id="favicon"
       rel="icon"
@@ -26,9 +29,11 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+
     <!-- import the webpage's client-side javascript file -->
     <script src="/client.js" defer></script>
   </head>
+
   <body>
     <header>
       <!-- Fixed navbar -->
@@ -48,7 +53,9 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="/">🏡 Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/"
+                >🏡 Home<span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./num">🔢 Numbers</a>
@@ -66,31 +73,40 @@
         src="https://coronavirus.jhu.edu/map.html"
         width="100%"
         height="1200px"
+        frameborder="0"
       >
       </iframe>
     </main>
 
     <footer>
-      <ul>
-        <li>
-          <a h <div class="alert alert-primary" role="alert">
-        <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html"
+      <div class="alert alert-primary" role="alert">
+        <a
+          href="https://www.cdc.gov/coronavirus/2019-ncov/index.html"
+          target="_blank"
           >CDC.gov</a
         >
       </div>
       <div class="alert alert-secondary" role="alert">
-        <a href="https://coronavirus.jhu.edu/">Resource Center</a>
+        <a href="https://coronavirus.jhu.edu/" target="_blank"
+          >CORONAVIRUS RESOURCE CENTER</a
+        >
       </div>
       <div class="alert alert-success" role="alert">
-        <a href="https://systems.jhu.edu/research/public-health/ncov/"
-          >Research and more data</a
+        <a
+          href="https://systems.jhu.edu/research/public-health/ncov/"
+          target="_blank"
+          >Research & data</a
         >
       </div>
 
       <hr />
       <div class="alert alert-dark" role="alert">
         <a href="https://ido-green.appspot.com" target="_blank">@greenido</a>
-      </div>      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"
     ></script>
@@ -104,7 +120,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    
+
     <!-- GA -->
     <script>
       (function(i, s, o, g, r, a, m) {
