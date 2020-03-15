@@ -1,0 +1,26 @@
+{
+ 
+  "name": "coronavirus-19",
+  "version": "0.0.1",
+  "description": "Coronavirus COVID-19 Global Cases from Johns Hopkins",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^4.1.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/coronavirus-19"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
