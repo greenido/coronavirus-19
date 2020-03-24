@@ -29,6 +29,11 @@ app.get("/num", (request, response) => {
   response.sendFile(`${__dirname}/views/num.html`);
 });
 
+// https://www.google.com/covid19/
+app.get("/google", (request, response) => {
+  response.sendFile(`${__dirname}/views/google.html`);
+});
+
 // /tweet + news page
 app.get("/tweets", (request, response) => {
   response.sendFile(`${__dirname}/views/tweets.html`);
