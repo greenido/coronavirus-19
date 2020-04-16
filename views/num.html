@@ -27,8 +27,11 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-
-    <!--     <link rel="stylesheet" href="/style.css" /> -->
+    <style>
+      main {
+        padding: 1em;
+      }
+    </style>
 
     <!-- import the webpage's client-side javascript file -->
     <script src="/client.js" defer></script>
@@ -75,12 +78,29 @@
     </header> -->
 
     <main>
+      <br /><br /><br />
+      <h2>
+        Deaths By Country
+      </h2>
       <iframe
-        src="https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61"
-        width="100%"
-        height="1200px"
-      >
-      </iframe>
+        src="https://ourworldindata.org/grapher/total-deaths-covid-19?country=ITA+ESP+USA"
+        style="width: 100%; height: 600px; border: 0px none;"
+      ></iframe>
+
+      <br /><br /><br />
+      <iframe
+        src="https://ourworldindata.org/grapher/covid-confirmed-cases-since-100th-case?country=USA+ESP+ITA+KOR+TWN+GBR+NOR+ISR"
+        style="width: 100%; height: 600px; border: 0px none;"
+      ></iframe>
+
+      <br /><br /><br />
+      <h2>
+        Total Tests
+      </h2>
+      <iframe
+        src="https://ourworldindata.org/grapher/full-list-cumulative-total-tests-per-thousand"
+        style="width: 100%; height: 600px; border: 0px none;"
+      ></iframe>
     </main>
 
     <footer>
@@ -106,8 +126,10 @@
 
       <hr />
       <div class="alert alert-dark" role="alert">
-        <a href="https://ido-green.appspot.com" target="_blank">@greenido</a> - 
-        <a href="https://github.com/greenido/coronavirus-19" target="_blank">💻 Code</a>
+        <a href="https://ido-green.appspot.com" target="_blank">@greenido</a> -
+        <a href="https://github.com/greenido/coronavirus-19" target="_blank"
+          >💻 Code</a
+        >
       </div>
     </footer>
 
