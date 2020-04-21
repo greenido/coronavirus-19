@@ -1,7 +1,7 @@
 {
  
   "name": "coronavirus-19",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Coronavirus COVID-19 Global Cases from Johns Hopkins",
   "main": "server.js",
   "scripts": {

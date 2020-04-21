@@ -24,6 +24,11 @@ app.get("/", (request, response) => {
   response.sendFile(`${__dirname}/views/index.html`);
 });
 
+// Rt-live
+app.get("/rt", (request, response) => {
+  response.sendFile(`${__dirname}/views/rt.html`);
+});
+
 // just numbers
 app.get("/num", (request, response) => {
   response.sendFile(`${__dirname}/views/num.html`);
